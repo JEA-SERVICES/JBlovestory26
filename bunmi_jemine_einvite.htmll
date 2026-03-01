@@ -565,8 +565,8 @@ function uploadPhoto(event) {
 // Admin password unlocks full guest list. No names shown publicly.
 
 const ADMIN_PASSWORD = 'jblovestory2026';
-const BIN_ID    = '69a3ec21ae596e708f54758a';      // will be set after first run
-const API_KEY   = '$2a$10$c/mOH90AhTtaUDbW9FGcPe0NCz0kSKuOFTjRD3NLkolHks/IRzoI.';  // replace after creating account at jsonbin.io
+const BIN_ID    = "69a3ec21ae596e708f54758a";      // will be set after first run
+const API_KEY   = "$2a$10$c/mOH90AhTtaUDbW9FGcPe0NCz0kSKuOFTjRD3NLkolHks/IRzoI.";  // replace after creating account at jsonbin.io
 const BIN_URL   = `https://api.jsonbin.io/v3/b/${BIN_ID}`;
 
 let rsvps = [];
