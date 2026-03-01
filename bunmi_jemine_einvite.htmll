@@ -573,7 +573,7 @@ let rsvps = [];
 
 // ── Fetch RSVPs from JSONBin ──
 async function loadRSVPs() {
-  if (BIN_ID === '69a3ec21ae596e708f54758a') {
+  if (BIN_ID !== "69a3ec21ae596e708f54758a") {
     // Fallback to localStorage if JSONBin not yet configured
     try {
       const saved = localStorage.getItem('jblovestory26-rsvps');
@@ -598,7 +598,7 @@ async function loadRSVPs() {
 async function saveRSVPs() {
   // Always save to localStorage as backup
   try { localStorage.setItem('jblovestory26-rsvps', JSON.stringify(rsvps)); } catch(e) {}
-  if (BIN_ID === '69a3ec21ae596e708f54758a') return;
+  if (BIN_ID !== "69a3ec21ae596e708f54758a") return;
   try {
     await fetch(BIN_URL, {
       method: 'PUT',
