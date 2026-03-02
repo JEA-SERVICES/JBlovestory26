@@ -337,49 +337,110 @@
     <p class="section-tag">Our Story</p>
     <h2 class="section-title">How it all began…</h2>
 
-    <div class="timeline">
-      <div class="timeline-item">
-        <div class="timeline-dot">💼</div>
-        <div class="timeline-content">
-          <p class="timeline-year">The Beginning</p>
-          <p class="timeline-text">
-            He was this grumpy, tall guy in the office — always saying a few words to almost everyone.
-            But that was not where the story truly began.
-          </p>
+    <!-- Story Toggle Tabs -->
+    <div class="story-tabs">
+      <button class="story-tab active" onclick="switchStory('bride', this)">🌸 Bride's Side</button>
+      <button class="story-tab" onclick="switchStory('groom', this)">🤵 Groom's Side</button>
+    </div>
+
+    <!-- BRIDE'S SIDE -->
+    <div class="story-panel active" id="panel-bride">
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot">💼</div>
+          <div class="timeline-content">
+            <p class="timeline-year">The Beginning</p>
+            <p class="timeline-text">
+              He was this grumpy, tall guy in the office — always saying a few words to almost everyone.
+              But that was not where the story truly began.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot">✈️</div>
+          <div class="timeline-content">
+            <p class="timeline-year">2021 · A Goodbye That Changed Everything</p>
+            <p class="timeline-text">
+              I was going to resign to serve my fatherland, and that was when Baba started liking me.
+              We spoke, and I thought it was just normal flirting — with the long distance and all,
+              it couldn't possibly be more than that… or so I thought.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot">🔥</div>
+          <div class="timeline-content">
+            <p class="timeline-year">2023 · He Got Serious</p>
+            <p class="timeline-text">
+              Fast forward to 2023 HC — he became more intense in his intentions,
+              and the rest, they say, is HISTORY.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot">💍</div>
+          <div class="timeline-content">
+            <p class="timeline-year">2nd May 2026 · Making History</p>
+            <p class="timeline-text">
+              We are making history together. The day Jemine found his Bee,
+              and they said <em>forever</em>.
+            </p>
+          </div>
         </div>
       </div>
+    </div>
 
-      <div class="timeline-item">
-        <div class="timeline-dot">✈️</div>
-        <div class="timeline-content">
-          <p class="timeline-year">2021 · A Goodbye That Changed Everything</p>
-          <p class="timeline-text">
-            I was going to resign to serve my fatherland, and that was when Baba started liking me.
-            We spoke, and I thought it was just normal flirting — with the long distance and all,
-            it couldn't possibly be more than that… or so I thought.
-          </p>
+    <!-- GROOM'S SIDE -->
+    <div class="story-panel" id="panel-groom">
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot">💼</div>
+          <div class="timeline-content">
+            <p class="timeline-year">The Beginning</p>
+            <p class="timeline-text">
+              There was this quiet brilliance about her — she moved through the office with a grace
+              and warmth that caught my eye, even when I pretended not to notice. I noticed.
+            </p>
+          </div>
         </div>
-      </div>
 
-      <div class="timeline-item">
-        <div class="timeline-dot">🔥</div>
-        <div class="timeline-content">
-          <p class="timeline-year">2023 · He Got Serious</p>
-          <p class="timeline-text">
-            Fast forward to 2023 HC — he became more intense in his intentions,
-            and the rest, they say, is HISTORY.
-          </p>
+        <div class="timeline-item">
+          <div class="timeline-dot">✈️</div>
+          <div class="timeline-content">
+            <p class="timeline-year">2021 · The Goodbye I Almost Let Happen</p>
+            <p class="timeline-text">
+              When she said she was leaving to serve her fatherland, something shifted in me —
+              I couldn't just let her walk away. I reached out, we talked, and even across the miles,
+              I knew. I knew she was more than a moment. She was the one I had been waiting for.
+            </p>
+          </div>
         </div>
-      </div>
 
-      <div class="timeline-item">
-        <div class="timeline-dot">💍</div>
-        <div class="timeline-content">
-          <p class="timeline-year">2nd May 2026 · Making History</p>
-          <p class="timeline-text">
-            We are making history together. The day Jemine found his Bee,
-            and they said <em>forever</em>.
-          </p>
+        <div class="timeline-item">
+          <div class="timeline-dot">🔥</div>
+          <div class="timeline-content">
+            <p class="timeline-year">2023 · No More Games</p>
+            <p class="timeline-text">
+              By 2023, I was done playing it cool. My feelings were too real and too deep to keep quiet.
+              I pursued her with everything I had — deliberately, intentionally, with my whole heart.
+              And she said yes. The rest, as they say, is beautiful history.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot">💍</div>
+          <div class="timeline-content">
+            <p class="timeline-year">2nd May 2026 · Forever Starts Here</p>
+            <p class="timeline-text">
+              On this day, I get to stand before the world and declare what my heart has known
+              all along — Bunmi is my Bee, my calm, my home. I found her, and I choose her,
+              now and always, <em>forever</em>.
+            </p>
+          </div>
         </div>
       </div>
     </div>
